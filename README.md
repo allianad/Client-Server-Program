@@ -1,3 +1,4 @@
+# Client-Server Program
 ## Functionality
 
 The client successfully makes a TCP connection to the indirection server and makes UDP connections from indirection server to the micro servers. Client can request an english word from the chosen five to translate to french. Client can also use the currency conversion service. Lastly client can see the list of candidates to vote for, vote once securely with the use of an encryption key and only see the results after voting. Indirection server also notifies client if there is no response after 3 seconds from the micro servers.
