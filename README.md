@@ -1,4 +1,6 @@
-# A2 Transport Protocols
+## Functionality
+
+The client successfully makes a TCP connection to the indirection server and makes UDP connections from indirection server to the micro servers. Client can request an english word from the chosen five to translate to french. Client can also use the currency conversion service. Lastly client can see the list of candidates to vote for, vote once securely with the use of an encryption key and only see the results after voting. Indirection server also notifies client if there is no response after 3 seconds from the micro servers.
 
 ## How to compile and configure
 
@@ -32,10 +34,3 @@ When the client program is run, user has to select a service. To choose a servic
 4 Vote.
 5 View Voting Results.
 
-## What Works
-
-The client successfully makes a TCP connection to the indirection server and makes UDP connections from indirection server to the micro servers. Client can request an english word from the chosen five to translate to french. Client can also use the currency conversion service. Lastly client can see the list of candidates to vote for, vote once securely with the use of an encryption key and only see the results after voting. Indirection server also notifies client if there is no response after 3 seconds from the micro servers.
-
-## Testing
-
-The programs were tested at home using two IP addresses, 136.159.5.25 and 136.159.5.27. When connecting to 136.159.5.27 wasn't working I used my computer's IP 127.0.0.1. All functionalities of the micro servers were tested and the cases where one or more micro servers were offline were tested.
